@@ -10,7 +10,7 @@ $requested = $paths['public'].$uri;
 
 
 // Ths file  allows us to emulate Apache's "mod_rewrite" functionality from the
-// uilt-in PHP  server. This provides a convenient way to test a Laravel
+// Built-in PHP  server. This provides a convenient way to test a Laravel
 // application without having installed a "real" web server software here.
 if ($uri !== '/' and file_exists($requested))
 {
